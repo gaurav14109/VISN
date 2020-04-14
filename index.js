@@ -18,11 +18,16 @@ app.use(sassMiddleware({
     outputStyle: 'extended',
     prefix: '/css'
 }));
+
 app.set('layout extractStyles', true);//this for setting css to particular page
 app.set('layout extractScripts', true);//javacript for particular page.
 
 app.set('view engine', 'ejs');
 app.set('views', './views');
+
+app.use('/', require('./routes'));
+
+
 app.listen(port, (err)=>{
 
     if(err){

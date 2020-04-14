@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            <%= title  %>
+        </title>
+
+        <script src="/js/angular.min.js"></script>
+        <%- style %>
+        <!-- For external style to page  can be added Sttyle can also be added to any page and here for common style sheet -->
+        
+    </head>
+
+    <body>
+      
+        <%- include('_header') -%>
+       
+        
+        <main id="">
+            <%- body %>
+           
+
+        </main>
+
+
+        <%- include('_footer') -%>
+        <%- script %>
+            
+    </body>
+</html>
