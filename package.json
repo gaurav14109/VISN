@@ -2,13 +2,13 @@
   "name": "vision",
   "version": "1.0.0",
   "description": "Eye Specialist",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaurav14109/VISN.git"
+    "url": "git+https://github.com/gaurav14109/recruiterPortal.git"
   },
   "keywords": [
     "vision"
@@ -16,9 +16,9 @@
   "author": "RAG",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gaurav14109/VISN/issues"
+    "url": "https://github.com/gaurav14109/recruiterPortal/issues"
   },
-  "homepage": "https://github.com/gaurav14109/VISN#readme",
+  "homepage": "https://github.com/gaurav14109/recruiterPortal#readme",
   "dependencies": {
     "ejs": "^3.0.2",
     "express": "^4.17.1",
